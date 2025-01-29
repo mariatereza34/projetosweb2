@@ -3,11 +3,11 @@ import psycopg2
 def conectardb():
 
     con = psycopg2.connect(
-
-        host='localhost',
-        database = 'lariapple',
-        user = 'postgres',
-        password = '12345'
+        dbname="projetosweb2",
+        user="projetosweb2_user",
+        password="OO1zrV3xzD8kRbvtZGsFMKZJYAilEsqr",
+        host="dpg-cud39eogph6c738kpesg-a.oregon-postgres.render.com",
+        port="5432"
     )
     return con
 
