@@ -2,14 +2,8 @@ import psycopg2
 
 #Conexão do banco
 def conectardb():
-
-    con = psycopg2.connect(
-        dbname="projetosweb2",
-        user="projetosweb2_user",
-        password="OO1zrV3xzD8kRbvtZGsFMKZJYAilEsqr",
-        host="dpg-cud39eogph6c738kpesg-a.oregon-postgres.render.com",
-        port="5432"
-    )
+    databaseURL = "postgresql://lariapple_user:lf4U0yxCHWu4Mvivm66sgfBW7NaqfWmL@dpg-cud3k1ogph6c738kulag-a.oregon-postgres.render.com/lariapple"
+    con = psycopg2.connect(databaseURL)
     return con
 
 def login(user,senha):
