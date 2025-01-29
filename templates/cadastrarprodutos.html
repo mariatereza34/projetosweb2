@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LariApple</title>
+    <link rel="stylesheet" href="/static/cadastrarproduto.css">
+</head>
+<body>
+        <h1>Escolha um aparelho</h1>
+    <form action="/cadastrarprodutos" method="post">
+        <label for="aparelho">Selecione uma opção:</label>
+        <select id="aparelho" name="tipo">
+            <option value="Iphone">Iphone</option>
+            <option value="Macbook">Macbook</option>
+            <option value="Ipad">Ipad</option>
+        </select>
+      <br>
+        <label for="cores">Digite a cor:</label>
+        <select id="cores" name="cor">
+        <option value="Preto">Preto</option>
+        <option value="Branco">Branco</option>
+        <option value="Vermelho">Vermelho</option>
+        </select>
+  <br>
+          <label for="gb">Digite a quantidade de GB:</label>
+          <select id="gb" name="gb">
+            <option value="64 GB">64 GB</option>
+            <option value="128 GB">128 GB</option>
+            <option value="256 GB">256 GB</option>
+          </select>
+        <br>
+      <button type="submit">Enviar</button>
+    </form>
+
+
+</body>
+</html>

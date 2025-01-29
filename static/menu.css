@@ -1,0 +1,68 @@
+/* Estilos gerais do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Container principal */
+.container {
+    background-color: violet;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Título */
+h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Estilo para a lista de opções */
+form {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    margin: 30px 0;
+    }
+
+/* Estilo para os links */
+button {
+    text-decoration: none;
+    color: #fff;
+    background-color:violet;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color:purple;
+}
+
+/* Estilo para a navegação */
+.back-link {
+    display: block;
+    margin-top: 20px;
+    color: #007BFF;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}

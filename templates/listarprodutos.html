@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LariApple</title>
+    <link rel="stylesheet" href="..//static//listarusuarios.css">
+</head>
+<body>
+    <header>
+            <h1>Nossos produtos</h1>
+    </header>
+    <main>
+        <h2 class="page-title">Lista de produtos</h2>
+            <ul class="user-list">
+                {% for produtos in lista %}
+                <li class="user-item">
+                    <span class="user-name"> {{produtos[0]}}</span>
+                    <span class="user-login">{{produtos[1]}}</span>
+                    <span class="user-login">{{produtos[2]}}</span>
+                </li>
+                {% endfor %}
+            </ul>
+
+         <form action="/logout" method="post">
+            <button type="submit">Sair</button>
+        </form>
+        </main>
+</body>
+</html>

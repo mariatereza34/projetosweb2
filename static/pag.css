@@ -1,0 +1,51 @@
+.inicial {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+.pagina {
+  background-color: #d8c7eb; 
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  position: relative; 
+}
+
+.titulo h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: purple;
+  margin: 0;
+}
+
+.frase {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.frase p {
+  font-size: 1.2em;
+  color: black;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 10px; 
+  max-width: 400px; 
+  margin: 0 auto; 
+}
+
+.image-container img {
+  width: 100%; 
+  height: auto; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+}
+
+.image-container p {
+  text-align: center;
+  margin: 5px 0;
+  font-size: 14px;
+}
