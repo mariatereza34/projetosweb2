@@ -1,5 +1,6 @@
 import psycopg2
 
+#Conexão do banco
 def conectardb():
 
     con = psycopg2.connect(
